@@ -1,9 +1,32 @@
-<html>
-  <head>
-    <title>Hola!</title>
-  </head>
-  <body>
-    <h1>Hola!</h1>
-    <h2>Soy Robert</h2>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="resources/favicon.png" type="image/x-icon">
+
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center">Hola!</h1>
+    <hr>
+    <table id="tableIndex">
+        <tr>
+            <th>EJERCICIO</th>
+            <th>LINK</th>
+        </tr>
+        <tr>
+            <td>Mis proyectos.</td>
+            <td><button onclick="redirect('./projects')">CLICK</button></td>
+        </tr>
+        <tr>
+            <td>Pagina Prueba 1.</td>
+            <td><button onclick="redirect('./web')">CLICK</button></td>
+        </tr>
+    </table>
+
+    <script src="javascript/main.js"></script>
+</body>
